@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    font-family: 'Roboto', sans-serif;
+    max-width: 1320px;
+    min-width: 470px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+h1
+{
+    font-size: 52px;
+    /* color: rgb(88, 49, 196); */
+    color: 	#e54d26;    
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+img
+{
+    margin-bottom: 35px;
+}
+
+h2
+{
+    
+    padding-bottom: 25px;
+
+}
+
+#title-css{
+    margin-top: 25px;
+}
+
+.span-top
+{
+    color: #264de4;
+}
+
+header
+{
+    text-align: center;
+    padding-top: 70px;
+}
+
+header img
+{
+    width: 300px;
+    padding-top: 50px;
+}
+
+
+main
+{
+    background-color: #2965f1;
+    padding: 50px;
+    width: 870px;
+    margin: auto;
+    color: #fff;
+    text-shadow: 1px 1px black;
+    border-radius: 70px;
+    
+    
+}
+
+p
+{
+    
+    line-height:22px;
+    font-size: 1.2em;
+    text-align: justify;
+    
+}
+
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+}
+
+li
+{
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+    font-size: 1.2em;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(36, 3, 102) ;
+    background-color:rgba(247, 247, 3, 0.775);
+    border-radius: 5px;
+    font-weight: 700;
+    text-shadow: none;
+    padding: 7px 3px;
+    margin-left: 5px;
+}
+
+a:hover, a:active
+{
+    color: rgb(21, 5, 52) ;
+    padding: 2px 3px;
+    transition: 1s;
+    background-color: #e54d26;
+}
+
+
+.extra-important
+{
+    color: rgb(122, 242, 2);
+    border-color: rgb(247, 247, 3);
+
+}
+.strong-text
+{
+    color: rgb(224, 49, 1);
+    font-weight: 700;
+}
+
+.strong-text2
+{
+    color: rgb(247, 247, 3);
+    font-weight: 700;
+}
+
+footer
+{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800px;
+    /* background-color: #e54c26d0; */
+}
+
+footer a
+{
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color:gold;
+    color:#e54d26;    
+}
+
+footer a:hover
+{
+    background-color: #e54d26;
+    padding: 9px 18px;
+    transition: 1s;
+}
+
+
+footer #copy
+{
+    color: #02277d;
+    text-align: center; 
+    font-weight: 800;  
+    
+}
+
+footer span
+{
+    font-size: 1.5em;
+    font-weight: 800;
+}
