@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+#page-logo a
+{
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(245, 243, 160);
+    text-shadow: 2px 2px 15px black;
+    font-size: 50px;
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+
+header ul
+{   
+    display: flex;
+}
+
+header li
+{
+    margin-left: 70px;
+}
+
+
+
+
