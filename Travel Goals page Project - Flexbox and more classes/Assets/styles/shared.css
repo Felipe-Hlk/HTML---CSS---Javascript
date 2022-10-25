@@ -1,15 +1,16 @@
-*
+ *
 {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-}
+} 
 
 body
 {
     font-family: "Quicksand", sans-serif;
-    
+    margin: 0;
+    background: linear-gradient(360deg, rgb(229, 183, 0) -10%, rgb(24, 81, 76) 50%, rgb(21, 78, 74) 100%);;
 }
 
 ul
@@ -25,29 +26,58 @@ header
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
+    padding-right: 100px;
+    position: absolute;
+    width: 100%;
+
 }
 
 #page-logo a
 {
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
-    color: rgb(245, 243, 160);
-    text-shadow: 2px 2px 15px black;
-    font-size: 50px;
+    color: rgb(229, 183, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 30px;
     text-decoration: none; 
     text-transform: uppercase;
 }
 
+
+
 header ul
 {   
     display: flex;
+    
 }
 
 header li
 {
-    margin-left: 70px;
+    /* margin-left: 70px; */
+    display: inline-block;
+    
 }
 
+header .right-icons
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    padding: 25px 45px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    /* background-color: rgba(229, 183, 0, 0.9) */
+}
 
+header .right-icons:hover
+{
+    color:rgba(0, 0, 0, 0.7);
+    text-shadow: none;
+    transition: 0.5s;
+    background-color: rgba(229, 183, 0, 0.9);
+}
 
 
