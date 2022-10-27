@@ -1,0 +1,50 @@
+html, body
+{
+    margin:0;
+    border:0;
+    width:100%;
+    height:100%;
+}
+
+.conteudo
+{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+}
+
+.caixa
+{
+    outline: 5px solid transparent;
+}
+
+.efeito
+{
+    animation: girar 3s infinite;
+    
+}
+
+@keyframes girar{
+    0%
+    {
+        transform: scale(100%);
+        transition-timing-function: ease-out;
+    }
+
+    20%
+    {
+        transform: scale(170%);
+    }
+
+    50%
+    {
+        transform: scale(125%);        
+    }
+
+    100%
+    {
+        transform: scale(100%);        
+    }
+
+}
