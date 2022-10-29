@@ -1,1 +1,1 @@
-# Repository for study
+# studies of HTML - CSS - Javascript
