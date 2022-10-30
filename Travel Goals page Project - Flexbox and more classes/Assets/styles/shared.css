@@ -10,7 +10,7 @@ body
 {
     font-family: "Quicksand", sans-serif;
     margin: 0;
-    background: linear-gradient(360deg, rgb(229, 183, 0) -10%, rgb(24, 81, 76) 50%, rgb(21, 78, 74) 100%);;
+    background: linear-gradient(0deg, rgb(255, 255, 255) -10%, rgb(31, 177, 165) 20%, rgb(31, 177, 165) 100%);;
 }
 
 ul
