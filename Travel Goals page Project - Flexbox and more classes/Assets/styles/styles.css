@@ -19,7 +19,7 @@ nav
     display: flex;
     flex-direction:row;
     flex-wrap:wrap;
-    justify-content: right;
+    justify-content: end;
 }
 
 #hero-content
