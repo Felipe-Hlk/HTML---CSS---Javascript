@@ -131,9 +131,9 @@ nav
 
 .destination img
 {
-    width: 340px;
+    width: 330px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 2px 2px 15px black;
     object-fit: cover;
 
