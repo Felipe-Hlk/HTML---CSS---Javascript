@@ -119,7 +119,7 @@ nav
     flex-direction: row;
     margin:50px 40px;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 20px;
     
 }
 
@@ -131,10 +131,11 @@ nav
 
 .destination img
 {
-    width: 350px;
-    height: 200px;
+    width: 340px;
+    height: 150px;
     border-radius: 20px;
     box-shadow: 2px 2px 15px black;
+    object-fit: cover;
 
 }
 
@@ -142,5 +143,8 @@ nav
 {
     text-align: center;
     margin: 10px 15px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000;
+    font-weight: 900;
 }
 
