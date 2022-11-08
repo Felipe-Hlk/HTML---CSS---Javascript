@@ -57,7 +57,8 @@ main li img
     padding: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
+    justify-content: space-between;
+    text-align: justify; 
 }
 
 .item-content h2
@@ -66,6 +67,7 @@ main li img
     color: rgba(0, 0, 0, 0.905);
     text-transform: uppercase;
     font-weight: bolder;
+    margin: 0;
 }
 
 .actions
