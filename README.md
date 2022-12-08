@@ -1,1 +1,1 @@
-# Studies of HTML - CSS - Javascript
+# Studies of HTML and CSS
